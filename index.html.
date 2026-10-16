@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maria Luísa | 18 anos</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080808;color:white;text-align:center;font-family:Georgia,serif;padding:18px}
+.convite{max-width:600px;margin:auto;padding:30px 18px;border:2px solid #c9a04e;background:linear-gradient(#241011,#050505 45%)}
+h1{font-size:clamp(55px,15vw,90px);margin:20px 0 0;letter-spacing:-5px}
+h1 span{color:#c51c2b}
+.linha{height:1px;background:#c9a04e;margin:24px 0}
+.nome{font-size:clamp(25px,7vw,38px);letter-spacing:5px}
+.idade{font-size:110px;color:#c51c2b;line-height:1.1;font-weight:bold}
+.anos{letter-spacing:8px;color:#d9b66c}
+.chamada{letter-spacing:2px;margin:28px 0}
+.detalhes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.detalhes div{padding:12px 3px;border-right:1px solid #9e793a}
+.detalhes div:last-child{border:0}
+.rotulo{font-size:12px;color:#d9b66c;margin-bottom:10px}
+.valor{font-size:18px;margin-bottom:8px}
+small{font-size:12px;line-height:1.5}
+.ingresso{border:1px solid #c9a04e;padding:22px 10px;margin-top:28px;border-radius:12px}
+.preco{font-size:clamp(35px,10vw,52px);font-weight:bold;margin:12px}
+a.botao{display:block;background:#b71924;color:white;text-decoration:none;padding:17px 10px;border-radius:6px;font:bold 16px Arial,sans-serif;margin:20px auto 0;max-width:380px}
+a.botao:active{background:#8d101b}
+.rodape{color:#d9b66c;letter-spacing:3px;margin-top:30px}
+@media(max-width:350px){body{padding:8px}.convite{padding:20px 8px}.detalhes{grid-template-columns:1fr}.detalhes div{border-right:0;border-bottom:1px solid #9e793a}}
+</style>
+</head>
+<body>
+<main class="convite">
+<div style="color:#d9b66c;letter-spacing:5px">CONVITE ESPECIAL</div>
+<h1>VEN<span>O</span>SA</h1>
+<div style="color:#d9b66c;letter-spacing:4px">ROCK • AO VIVO</div>
+<div class="linha"></div>
+<div class="nome">MARIA LUÍSA</div>
+<div class="idade">18</div>
+<div class="anos">A N O S</div>
+<p class="chamada">VOCÊ É MEU CONVIDADO ESPECIAL!</p>
+<div class="linha"></div>
+<section class="detalhes">
+<div><div class="rotulo">DATA</div><div class="valor">30/10</div><small>SEXTA-FEIRA</small></div>
+<div><div class="rotulo">SHOW</div><div class="valor">23h</div><small>CASA ABRE ÀS 20h</small></div>
+<div><div class="rotulo">LOCAL</div><div class="valor">BOLSHOI PUB</div><small>GOIÂNIA</small></div>
+</section>
+<div class="linha"></div>
+<div class="ingresso">
+<div class="rotulo">INGRESSOS À VENDA</div>
+<div class="preco">R$ 60,00</div>
+<small>VENDA NA PORTA</small>
+<a class="botao" href="https://www.sympla.com.br/evento/venosa/3606152?share_id=copiarlink&amp;fbclid=PAdGRzdgU_IQRleHRuA2FlbQIxMQBwZG9mAnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp7Mnk81ptCT-ZR6hdKQaKVmQoRZCoRHDX39_02icg16VbjLTyrL-84DeUgAL_aem_6rrFeHC8xLDdlBan_LRVUg&amp;utm_id=97760_v0_s00_e0_tv6&amp;referrer=l.instagram.com" target="_blank" rel="noopener">🎟 COMPRAR INGRESSOS NO SYMPLA</a>
+</div>
+<p><small>Valor anunciado para meia-entrada legal ou solidária mediante doação de 2 kg de alimento. Sujeito a alteração na portaria. Mesas por ordem de chegada.</small></p>
+<div class="rodape">VAI SER MUITO ESPECIAL!</div>
+</main>
+</body>
+</html>
